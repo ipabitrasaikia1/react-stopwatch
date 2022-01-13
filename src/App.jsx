@@ -5,7 +5,10 @@ import { useState } from 'react';
 import { Btn } from './components/Btn';
 
 function App() {
-  const [time, setTime] = useState({ h: 0, m: 0, s: 0, ms: 0 });
+  const [time, setTime] = useState({
+    h: 0, m: 0, s: 0
+    , ms: 0
+  });
   const [interv, setInterv] = useState();
   const [status, setStatus] = useState(0);
 
